@@ -21,12 +21,10 @@ Calculate iou for 2 boxes
 Calculate average iou :
 - Returns the average IoU of all the boxes that pass the givven iou_threshold.
 
-def create_historgram(boxes, iou_threshold):
-● The function gets a dictionary mapping a frame to its boxes {frame_name: list_of_boxes},
-and an iou_threshold, and outputs an IOU values histogram for the boxes that pass
-iou_threshold.
-x_axis: iou, y_axis: occurrences
-def get_minimum_and_maximum_height(boxes, iou):
-● Gets a dictionary mapping a frame to its boxes {frame_name: list_of_boxes}, and an
-iou_threshold, and outputs the minimum height and the maximum height of all the boxes
-that pass iou_threshold. 
+Create historgram :
+  - x_axis: iou that pass the givven 
+  - iou_threshold , y_axis: occurrences
+
+Get minimum and maximum height:
+- Return the minimum height and the maximum height of all the boxes
+that pass the givven iou_threshold. 
