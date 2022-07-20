@@ -91,10 +91,11 @@ def calculate_iou_for_2_boxes(box1: BoundingBox, box2: BoundingBox):
             area_box2= box2.width * box2.height
             area_overlap = overlap_width *overlap_height
             two_boxes_area = (area_box1 + area_box2) - area_overlap # Because the overlap is in both boxes
-            iou = area_overlap / two_boxes_area
-            return iou
+            iou = area_overlap / two_boxes_area # Calculate the iou
         else: # There is no overlap between the two rectangles 
-            return 0          
+            iou = 0 
+            
+        return iou         
 
 if __name__ == '__main__':
     path_detection_boxes_json = "system_output.json" # path to system output file
