@@ -22,8 +22,8 @@ Calculate average iou :
 - Returns the average IoU of all the boxes that pass the givven iou_threshold.
 
 Create historgram :
-  - x_axis: iou that pass the givven 
-  - iou_threshold , y_axis: occurrences
+  - x_axis: iou that pass the given iou_threshold
+  - y_axis: occurrences
 
 Get minimum and maximum height:
 - Return the minimum height and the maximum height of all the boxes
