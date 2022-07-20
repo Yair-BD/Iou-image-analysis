@@ -27,4 +27,4 @@ Create historgram :
 
 Get minimum and maximum height:
 - Return the minimum height and the maximum height of all the boxes
-that pass the givven iou_threshold. 
+that pass the given iou_threshold. 
